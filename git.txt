@@ -1,0 +1,40 @@
+
+
+1. install git
+2. set path in environment variable
+3. create folder for project
+4. open folder on cmd
+
+push contens on repository 
+5.git init
+6. git add .   or filename
+7. git config --global user.email "mukundnik@gmail.com"
+8. git config --global user.name darpana24
+9. git commit -am "initial commited"
+10. create git repository
+11. git remote add origin https://github.com/darpana24/demo1.git
+12. git push origin master
+
+download from git
+1. git clone code
+
+
+
+
+
+
+push new repo:
+echo "# demo_fullstack1" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/darpana24/demo_fullstack1.git
+git push -u origin main
+
+
+
+push exisiting repo:-
+git remote add origin https://github.com/darpana24/demo_fullstack1.git
+git branch -M main
+git push -u origin main
